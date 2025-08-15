@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.INFO)
 bot = Bot(token=BOT_TOKEN, parse_mode="HTML")
 dp = Dispatcher()
 
-ADMINS = [5978950232]  # Admin user_id ro'yxati (o'zingizni qo'shing)
+ADMINS = [7483732504]  # Admin user_id ro'yxati (o'zingizni qo'shing)
 
 # Foydalanuvchi /start
 @dp.message(Command("start"))
